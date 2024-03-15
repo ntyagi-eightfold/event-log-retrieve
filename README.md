@@ -23,6 +23,6 @@ $ python3 eventFile.py
 Retrieve logs for a given environment
 
 ```sh
-$ retrieveLogs.py {orgname}
+$ python3 retrieveLogs.py {orgname}
 >>Fetching logs from, eightfold.my.salesforce.com
 ```
