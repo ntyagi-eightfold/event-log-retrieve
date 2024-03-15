@@ -12,26 +12,17 @@ Python command line utility that fetches Salesforce Log Files.
 
 To Run & test simple_salesforce auth based connection 
 
-### Run Simple_Salesforce Version Locally
+* ### Run Simple_Salesforce Version Locally
 
 ```sh
 $ python3 eventFile.py
 ```
 
-### Run Non-Simple_Salesforce Version Locally
+* ### Run Non-Simple_Salesforce Version Locally
 
 Retrieve logs for a given environment
 
 ```sh
 $ retrieveLogs.py {orgname}
 >>Fetching logs from, eightfold.my.salesforce.com
-```
-
-Print debug output to terminal
-
-```sh
-$ retrieveLogs.py orgname -d
->>Fetching logs from, eightfold.my.salesforce.com
->>Debug turned on
-[TRUNCATED]
 ```
