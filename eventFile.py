@@ -1,7 +1,5 @@
 from simple_salesforce import Salesforce
 import requests
-from io import StringIO
-import pandas as pd
 
 USERNAME = 'ntyagi@eightfold.ai.devsb'
 USERNAME_PROD = 'ntyagi@eightfold.ai'
